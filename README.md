@@ -13,7 +13,7 @@ A sleek, responsive, and dynamic user management dashboard built with Next.js 15
  📸 Screenshots
 
 [Dashboard View]
-[image](https://github.com/user-attachments/assets/1ab228b0-0b82-4baf-b007-5e26c932861a)
+![image](https://github.com/user-attachments/assets/1ab228b0-0b82-4baf-b007-5e26c932861a)
 
 [Add User View]
 ![image](https://github.com/user-attachments/assets/6b799f6c-cbda-498c-94d6-cb4f5fc86d9d)
