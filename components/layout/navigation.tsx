@@ -6,6 +6,19 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Users, UserPlus, Home } from "lucide-react"
+import { Toaster } from "@/components/ui/toaster";
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        <Toaster /> {/* ✅ Required for toast to show */}
+        {children}
+      </body>
+    </html>
+  )
+}
+
 
 export function Navigation() {
   const pathname = usePathname()
