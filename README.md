@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+👤 UserDash – User Management Dashboard
 
-## Getting Started
+A sleek, responsive, and dynamic user management dashboard built with Next.js 15, Tailwind CSS, Framer Motion, and Radix UI. Supports searching, adding, and reviewing user profiles in a smooth multi-step form with persistent storage.
 
-First, run the development server:
+🚀 Features
+- 🔍 Real-time user search with filtering
+- ➕ Multi-step form to add users
+- 💾 Persistent form data using localStorage
+- 🎉 Toast notifications on submission
+- 💡 Clean animations with Framer Motion
+- 🎨 Beautiful UI using Tailwind & Radix Primitives
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ 📸 Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Dashboard View]
+[image](https://github.com/user-attachments/assets/1ab228b0-0b82-4baf-b007-5e26c932861a)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Add User View]
+![image](https://github.com/user-attachments/assets/6b799f6c-cbda-498c-94d6-cb4f5fc86d9d)
+![image](https://github.com/user-attachments/assets/28d92b2b-637d-482a-9c52-854d158694f6)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[Review & Submit]
+![image](https://github.com/user-attachments/assets/0923909a-804b-4181-87ad-36fdd10c27e8)
 
-## Learn More
+🧰 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+Framework: [Next.js 15](https://nextjs.org/)
+Styling: [Tailwind CSS](https://tailwindcss.com/)
+Components: [Radix UI](https://www.radix-ui.com/)
+Animations: [Framer Motion](https://www.framer.com/motion/)
+Icons: [Lucide Icons](https://lucide.dev/)
+Form Storage: LocalStorage hook
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ Clone the repo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+``bash
+git clone https://github.com/nidhijha716/User-Management-Dashboard.git
+cd UserDash
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Made with 💙 by Nidhi Jha
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
